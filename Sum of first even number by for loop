@@ -1,0 +1,14 @@
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        // Sum of first even number by for loop
+        int sum = 0;
+        int n =4;
+       for(int i =0; i<=n; i++){
+           sum = sum + (2*i) ;
+       }
+        System.out.println(sum);
+        
+        
+    }
+}

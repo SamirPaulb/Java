@@ -5,6 +5,12 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+/**
+ * Entrepreneurship Development Cell
+ * This Function stores data of new members of EDC club in the lab.edc table
+ * @author Samir.Paul
+ * @since 24-JAN-2021
+ */
 public class Enrolment {
 
 	public static void main(String[] args) {

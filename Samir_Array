@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        int [] marks = {39,40,94,95,82};
+      int sum = 0;
+      for(int element:marks){
+        sum = sum+element;
+      }
+      System.out.println("The value of sum is:  "+sum);
+    }
+}

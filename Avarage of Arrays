@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+// Avarage of Arrays      
+      float [] marks = {29.0f,38.3f,38,49,33,93,32,394884.9383f};
+      float sum =0;
+      for(float element:marks){
+        sum = sum + element;
+      }
+      System.out.println("The avrage marks is:  "+ sum/marks.length);
+    }
+}

@@ -1,0 +1,20 @@
+public class Main {
+    public static void main(String[] args) {
+ // To check a no is in Array or not
+      float [] marks = {39,52,53,74,91,14,63};
+      float num = 63;
+      boolean isInArray = false;
+      for(float element:marks){
+        if (num == element){
+          isInArray = true;
+          break;
+        }
+      }
+      if(isInArray){
+        System.out.println("The no. is in array");
+      }
+      else{
+        System.out.println("The no. is not in the array");
+      }
+    }
+}

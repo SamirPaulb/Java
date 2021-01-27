@@ -1,0 +1,30 @@
+package tesr.java;
+public class Practice {
+	public static void main(String[] args) {
+// Switch statements
+		int score = 90;
+		switch(score) {
+		case 95:
+		case 90:
+		case 85:
+		System.out.println("Very Good");
+		break;
+		case 70:
+		case 75:
+		case 60:
+		case 65:
+		System.out.println("Good");
+		break;
+		case 50:
+		case 45:
+		case 55:
+		case 35:
+		System.out.println("Ok");
+		break;
+		default:
+		System.out.println("Grade is not defind");
+		break;
+		}
+	}
+
+}

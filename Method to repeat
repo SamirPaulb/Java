@@ -1,0 +1,20 @@
+package tesr.java;
+public class Practice {
+	public static void main(String[] args) {
+
+// Method to repeat
+		myFirstMethod();
+		myFirstMethod();
+		myFirstMethod();
+		myFirstMethod();
+		myFirstMethod();
+		myFirstMethod();
+		myFirstMethod();
+		myFirstMethod();
+		
+	}
+	public static void myFirstMethod() {
+		System.out.println("Samir Paul");
+	}
+
+}

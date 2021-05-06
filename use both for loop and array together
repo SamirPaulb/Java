@@ -1,8 +1,0 @@
-public class Main {  // use both for loop and array together
-    public static void main(String[] args) {
-      double [] mark ={23.0854,33,44,55,66,77.963,88,99,74,24,26};
-        for(int i = 0;i<mark.length;i++){
-            System.out.println(mark[i]);
-        }
-    }
-}

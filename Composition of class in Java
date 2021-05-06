@@ -1,0 +1,56 @@
+// "static void main" must be defined in a public class.
+class OS {
+    String name;
+    int version;
+    OS(String name, int version) {
+        this.name = name;
+        this.version = version;
+    }
+    
+    @Override
+    public String toString() {
+        return "\nOS details\n name= "+name+", version= "+version;
+    }
+}
+
+class CPU {
+    String name;
+    int RAM;
+    int ROM;
+    CPU(String name, int RAM, int ROM) {
+        this.name = name;
+        this.RAM = RAM;
+        this.ROM = ROM;
+    }
+    
+    @Override
+    public String toString() {
+        return "\nCPU details\n name= "+name+", RAM= "+RAM+", ROM= "+ROM;
+    }
+}
+
+public class Computer {
+    String name;
+    int price;
+    OS os;
+    CPU cpu;
+    
+    Computer(String name, int price, OS os) {
+        this.name = name;
+        this.price = price;
+        this.os = os;
+    }
+    
+    @Override
+    public String toString() {
+        return "\nComputer Details\n name= "+name+", price= "+price+", OS= "+os+", CPU= "+cpu;
+    }
+    
+    public static void main(String[] args) {
+        OS osObj = new OS("Windows", 10);
+        CPU cpuObj = new CPU("Inter Core i-7", 16, 512);
+        System.out.println(cpuObj);
+        Computer computer = new Computer("Dell", 32000, osObj);
+        System.out.println(computer);
+    }
+}
